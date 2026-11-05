@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "Concrete powder in all 16 colors that stays in place and does not harden in water.",
+  "authors": ["emberbocor"],
+  "contact": {
+    "sources": "https://github.com/emberbocor/waterproofconcretepowder",
+    "issues": "https://github.com/emberbocor/waterproofconcretepowder/issues"
+  },
+  "license": "${mod_license}",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.emberbocor.waterproofconcretepowder.WaterproofConcretePowderFabric"]
+  },
+  "depends": {
+    "fabricloader": "${fabric_loader_version_range}",
+    "fabric-api": "${fabric_api_version_range}",
+    "minecraft": "${fabric_minecraft_version_range}",
+    "java": ">=21"
+  }
+}

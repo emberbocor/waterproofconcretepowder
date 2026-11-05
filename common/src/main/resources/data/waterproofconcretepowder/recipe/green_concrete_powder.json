@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "waterproofconcretepowder",
+  "ingredients": [
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "id": "waterproofconcretepowder:green_concrete_powder",
+    "count": 8
+  }
+}

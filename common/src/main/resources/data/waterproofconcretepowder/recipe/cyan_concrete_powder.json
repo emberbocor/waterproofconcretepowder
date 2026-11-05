@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "waterproofconcretepowder",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "id": "waterproofconcretepowder:cyan_concrete_powder",
+    "count": 8
+  }
+}
