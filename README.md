@@ -27,13 +27,13 @@ In a crafting table, combine **8 vanilla concrete powder of the same color + 1 w
 
 | | NeoForge | Forge | Fabric |
 |---|---|---|---|
-| Minecraft | 1.21.1 | 1.21.1 | 1.21.1 |
-| Java | 21 | 21 | 21 |
-| Loader | NeoForge 21.1.1 or newer | Forge 52.0.0 or newer | Fabric Loader 0.15.11 or newer |
-| Other | | | Fabric API 0.102.0+1.21.1 or newer for Minecraft 1.21.1 |
-| Jar | `waterproofconcretepowder-neoforge-1.21.1-<version>.jar` | `waterproofconcretepowder-forge-1.21.1-<version>.jar` | `waterproofconcretepowder-fabric-1.21.1-<version>.jar` |
+| Minecraft | 1.20.1 | 1.20.1 | 1.20.1 |
+| Java | 17 | 17 | 17 |
+| Loader | NeoForge 47.1.5 or newer | Forge 47.1.0 or newer | Fabric Loader 0.14.21 or newer |
+| Other | | | Fabric API 0.83.0+1.20.1 or newer for Minecraft 1.20.1 |
+| Jar | `waterproofconcretepowder-forge-1.20.1-<version>.jar` | `waterproofconcretepowder-forge-1.20.1-<version>.jar` | `waterproofconcretepowder-fabric-1.20.1-<version>.jar` |
 
-On Minecraft 1.21.1, NeoForge and Forge are separate loaders that do not run each other's mods, so each has its own jar. Pick the jar that matches your game's loader.
+On Minecraft 1.20.1, NeoForge uses the Forge mod identity and API, so NeoForge and Forge use the same Forge jar. Fabric uses its own jar. Pick the jar that matches your game's loader.
 
 ### Client and server
 
@@ -53,22 +53,22 @@ Back up your world before removing the mod. Remove its placed blocks and stored 
 
 ## Compatibility
 
-- Targets Minecraft 1.21.1. Use one matching loader jar at a time.
+- Targets Minecraft 1.20.1. Use one matching loader jar at a time.
 - Uses standard block/item registration, crafting recipes, loot tables and mining tags.
 - Resource packs can change its appearance by replacing the vanilla concrete powder resources it references.
 - Other mods or data packs that replace these recipes, loot tables, tags or block behavior may change the result.
 
 ## Building from source
 
-Use JDK 21 and the included Gradle wrapper:
+Use JDK 21 to run the included Gradle wrapper, with JDK 17 available to compile the game classes:
 
 ```
 ./gradlew build
 ```
 
-The release jars are written to `neoforge/build/libs/`, `forge/build/libs/` and `fabric/build/libs/`. Use Fabric's remapped jar from `fabric/build/libs/`; development jars are not release artifacts.
+The release jars are written to `forge/build/libs/` and `fabric/build/libs/`. Use Forge's reobfuscated jar and Fabric's remapped jar; development jars are not release artifacts.
 
-Development profiles use `runs/1.21.1/neoforge` for both NeoForge sides, and separate `runs/1.21.1/forge-client`, `forge-server`, `fabric-client` and `fabric-server` directories. These directories are ignored by Git.
+Development profiles use separate `runs/1.20.1/forge-client`, `runs/1.20.1/forge-server`, `runs/1.20.1/fabric-client` and `runs/1.20.1/fabric-server` directories. The Forge profiles also support the NeoForge build override. These directories are ignored by Git.
 
 ## License
 

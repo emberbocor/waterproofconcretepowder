@@ -36,6 +36,6 @@ public enum PowderColor {
     }
 
     public Block createBlock() {
-        return new Block(BlockBehaviour.Properties.ofFullCopy(vanillaBlock));
+        return new Block(BlockBehaviour.Properties.copy(vanillaBlock));
     }
 }

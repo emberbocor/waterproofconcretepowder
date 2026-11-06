@@ -16,7 +16,7 @@ public final class FabricContent {
 
     static void register() {
         for (PowderColor color : PowderColor.values()) {
-            ResourceLocation id = ResourceLocation.fromNamespaceAndPath(WaterproofConcretePowder.MODID, color.path());
+            ResourceLocation id = new ResourceLocation(WaterproofConcretePowder.MODID, color.path());
             Block block = Registry.register(BuiltInRegistries.BLOCK, id, color.createBlock());
             Registry.register(BuiltInRegistries.ITEM, id, new BlockItem(block, new Item.Properties()));
             POWDERS.put(color, block);
