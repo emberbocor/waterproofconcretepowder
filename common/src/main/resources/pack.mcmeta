@@ -1,10 +1,18 @@
 {
   "pack": {
     "description": "Waterproof Concrete Powder resources and data",
-    "pack_format": 48,
-    "supported_formats": {
-      "min_inclusive": 34,
-      "max_inclusive": 48
-    }
+    "min_format": [
+      64,
+      0
+    ],
+    "max_format": [
+      94,
+      1
+    ],
+    "pack_format": 94,
+    "supported_formats": [
+      64,
+      94
+    ]
   }
 }

@@ -3,33 +3,15 @@
   "category": "building",
   "group": "waterproofconcretepowder",
   "ingredients": [
-    {
-      "item": "minecraft:green_concrete_powder"
-    },
-    {
-      "item": "minecraft:green_concrete_powder"
-    },
-    {
-      "item": "minecraft:green_concrete_powder"
-    },
-    {
-      "item": "minecraft:green_concrete_powder"
-    },
-    {
-      "item": "minecraft:green_concrete_powder"
-    },
-    {
-      "item": "minecraft:green_concrete_powder"
-    },
-    {
-      "item": "minecraft:green_concrete_powder"
-    },
-    {
-      "item": "minecraft:green_concrete_powder"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
+    "minecraft:green_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "waterproofconcretepowder:green_concrete_powder",

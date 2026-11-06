@@ -3,33 +3,15 @@
   "category": "building",
   "group": "waterproofconcretepowder",
   "ingredients": [
-    {
-      "item": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "item": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "item": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "item": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "item": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "item": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "item": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "item": "minecraft:light_blue_concrete_powder"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "waterproofconcretepowder:light_blue_concrete_powder",

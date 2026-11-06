@@ -3,33 +3,15 @@
   "category": "building",
   "group": "waterproofconcretepowder",
   "ingredients": [
-    {
-      "item": "minecraft:purple_concrete_powder"
-    },
-    {
-      "item": "minecraft:purple_concrete_powder"
-    },
-    {
-      "item": "minecraft:purple_concrete_powder"
-    },
-    {
-      "item": "minecraft:purple_concrete_powder"
-    },
-    {
-      "item": "minecraft:purple_concrete_powder"
-    },
-    {
-      "item": "minecraft:purple_concrete_powder"
-    },
-    {
-      "item": "minecraft:purple_concrete_powder"
-    },
-    {
-      "item": "minecraft:purple_concrete_powder"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
+    "minecraft:purple_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "waterproofconcretepowder:purple_concrete_powder",

@@ -2,6 +2,8 @@ package io.github.emberbocor.waterproofconcretepowder;
 
 import java.util.EnumMap;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -16,9 +18,10 @@ public final class NeoForgeContent {
 
     static {
         for (PowderColor color : PowderColor.values()) {
-            DeferredHolder<Block, Block> block = BLOCKS.register(color.path(), color::createBlock);
+            Identifier id = Identifier.fromNamespaceAndPath(WaterproofConcretePowder.MODID, color.path());
+            DeferredHolder<Block, Block> block = BLOCKS.register(color.path(), () -> color.createBlock(ResourceKey.create(Registries.BLOCK, id)));
             POWDERS.put(color, block);
-            ITEMS.register(color.path(), () -> new BlockItem(block.get(), new Item.Properties()));
+            ITEMS.register(color.path(), () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM, id)).useBlockDescriptionPrefix()));
         }
     }
 

@@ -3,33 +3,15 @@
   "category": "building",
   "group": "waterproofconcretepowder",
   "ingredients": [
-    {
-      "item": "minecraft:pink_concrete_powder"
-    },
-    {
-      "item": "minecraft:pink_concrete_powder"
-    },
-    {
-      "item": "minecraft:pink_concrete_powder"
-    },
-    {
-      "item": "minecraft:pink_concrete_powder"
-    },
-    {
-      "item": "minecraft:pink_concrete_powder"
-    },
-    {
-      "item": "minecraft:pink_concrete_powder"
-    },
-    {
-      "item": "minecraft:pink_concrete_powder"
-    },
-    {
-      "item": "minecraft:pink_concrete_powder"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
+    "minecraft:pink_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "waterproofconcretepowder:pink_concrete_powder",

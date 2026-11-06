@@ -1,5 +1,6 @@
 package io.github.emberbocor.waterproofconcretepowder;
 
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -35,7 +36,7 @@ public enum PowderColor {
         return path;
     }
 
-    public Block createBlock() {
-        return new Block(BlockBehaviour.Properties.ofFullCopy(vanillaBlock));
+    public Block createBlock(ResourceKey<Block> key) {
+        return new Block(BlockBehaviour.Properties.ofFullCopy(vanillaBlock).setId(key));
     }
 }

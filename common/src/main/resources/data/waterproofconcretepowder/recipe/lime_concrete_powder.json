@@ -3,33 +3,15 @@
   "category": "building",
   "group": "waterproofconcretepowder",
   "ingredients": [
-    {
-      "item": "minecraft:lime_concrete_powder"
-    },
-    {
-      "item": "minecraft:lime_concrete_powder"
-    },
-    {
-      "item": "minecraft:lime_concrete_powder"
-    },
-    {
-      "item": "minecraft:lime_concrete_powder"
-    },
-    {
-      "item": "minecraft:lime_concrete_powder"
-    },
-    {
-      "item": "minecraft:lime_concrete_powder"
-    },
-    {
-      "item": "minecraft:lime_concrete_powder"
-    },
-    {
-      "item": "minecraft:lime_concrete_powder"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
+    "minecraft:lime_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "waterproofconcretepowder:lime_concrete_powder",

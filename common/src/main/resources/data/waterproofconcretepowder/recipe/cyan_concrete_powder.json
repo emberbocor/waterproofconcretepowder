@@ -3,33 +3,15 @@
   "category": "building",
   "group": "waterproofconcretepowder",
   "ingredients": [
-    {
-      "item": "minecraft:cyan_concrete_powder"
-    },
-    {
-      "item": "minecraft:cyan_concrete_powder"
-    },
-    {
-      "item": "minecraft:cyan_concrete_powder"
-    },
-    {
-      "item": "minecraft:cyan_concrete_powder"
-    },
-    {
-      "item": "minecraft:cyan_concrete_powder"
-    },
-    {
-      "item": "minecraft:cyan_concrete_powder"
-    },
-    {
-      "item": "minecraft:cyan_concrete_powder"
-    },
-    {
-      "item": "minecraft:cyan_concrete_powder"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
+    "minecraft:cyan_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "waterproofconcretepowder:cyan_concrete_powder",

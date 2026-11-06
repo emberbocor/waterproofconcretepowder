@@ -2,10 +2,12 @@ package io.github.emberbocor.waterproofconcretepowder;
 
 import java.util.EnumMap;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -16,18 +18,19 @@ public final class ForgeContent {
 
     static {
         for (PowderColor color : PowderColor.values()) {
-            RegistryObject<Block> block = BLOCKS.register(color.path(), color::createBlock);
+            Identifier id = Identifier.fromNamespaceAndPath(WaterproofConcretePowder.MODID, color.path());
+            RegistryObject<Block> block = BLOCKS.register(color.path(), () -> color.createBlock(ResourceKey.create(Registries.BLOCK, id)));
             POWDERS.put(color, block);
-            ITEMS.register(color.path(), () -> new BlockItem(block.get(), new Item.Properties()));
+            ITEMS.register(color.path(), () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM, id)).useBlockDescriptionPrefix()));
         }
     }
 
     private ForgeContent() {
     }
 
-    static void register(IEventBus modEventBus) {
-        BLOCKS.register(modEventBus);
-        ITEMS.register(modEventBus);
+    static void register(BusGroup modBusGroup) {
+        BLOCKS.register(modBusGroup);
+        ITEMS.register(modBusGroup);
     }
 
     public static Block block(PowderColor color) {
