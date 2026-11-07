@@ -27,13 +27,13 @@ In a crafting table, combine **8 vanilla concrete powder of the same color + 1 w
 
 | | NeoForge | Forge | Fabric |
 |---|---|---|---|
-| Minecraft | 26.1, 26.1.1, 26.1.2 | 26.1, 26.1.1, 26.1.2 | 26.1, 26.1.1, 26.1.2 |
+| Minecraft | 26.2 | 26.2 | 26.2 |
 | Java | 25 | 25 | 25 |
-| Loader | NeoForge 26.1.0.1-beta or newer | Forge 62.0.0+ (26.1), 63.0.0+ (26.1.1), 64.0.0+ (26.1.2) | Fabric Loader 0.18.4 or newer |
-| Other | | | Fabric API 0.144.0+26.1 or newer for Minecraft 26.1–26.1.2 |
-| Jar | `waterproofconcretepowder-neoforge-26.1-26.1.2-<version>.jar` | `waterproofconcretepowder-forge-26.1-26.1.2-<version>.jar` | `waterproofconcretepowder-fabric-26.1-26.1.2-<version>.jar` |
+| Loader | NeoForge 26.2.0.0-beta or newer | Forge 65.0.0 or newer | Fabric Loader 0.18.4 or newer |
+| Other | | | Fabric API 0.152.1+26.2 or newer for Minecraft 26.2 |
+| Jar | `waterproofconcretepowder-neoforge-26.2-<version>.jar` | `waterproofconcretepowder-forge-26.2-<version>.jar` | `waterproofconcretepowder-fabric-26.2-<version>.jar` |
 
-On Minecraft 26.1–26.1.2, NeoForge and Forge are separate loaders that do not run each other's mods, so each has its own jar. Pick the jar that matches your game's loader.
+On Minecraft 26.2, NeoForge and Forge are separate loaders that do not run each other's mods, so each has its own jar. Pick the jar that matches your game's loader.
 
 ### Client and server
 
@@ -53,7 +53,7 @@ Back up your world before removing the mod. Remove its placed blocks and stored 
 
 ## Compatibility
 
-- Targets Minecraft 26.1, 26.1.1 and 26.1.2. Use one matching loader jar at a time.
+- Targets Minecraft 26.2. Use one matching loader jar at a time.
 - Uses standard block/item registration, crafting recipes, loot tables and mining tags.
 - Resource packs can change its appearance by replacing the vanilla concrete powder resources it references.
 - Other mods or data packs that replace these recipes, loot tables, tags or block behavior may change the result.
@@ -68,7 +68,7 @@ Use JDK 25 and the included Gradle wrapper:
 
 The release jars are written to `neoforge/build/libs/`, `forge/build/libs/` and `fabric/build/libs/`. Use Fabric's ordinary jar from `fabric/build/libs/`; development jars are not release artifacts.
 
-Development profiles use `runs/26.1/neoforge` for both NeoForge sides, and separate `runs/26.1/forge-client`, `forge-server`, `fabric-client` and `fabric-server` directories. These directories are ignored by Git.
+Development profiles use `runs/26.2/neoforge` for both NeoForge sides, and separate `runs/26.2/forge-client`, `forge-server`, `fabric-client` and `fabric-server` directories. These directories are ignored by Git.
 
 ## License
 

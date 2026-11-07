@@ -7,22 +7,22 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
 public enum PowderColor {
-    WHITE(DyeColor.WHITE, Blocks.WHITE_CONCRETE_POWDER),
-    ORANGE(DyeColor.ORANGE, Blocks.ORANGE_CONCRETE_POWDER),
-    MAGENTA(DyeColor.MAGENTA, Blocks.MAGENTA_CONCRETE_POWDER),
-    LIGHT_BLUE(DyeColor.LIGHT_BLUE, Blocks.LIGHT_BLUE_CONCRETE_POWDER),
-    YELLOW(DyeColor.YELLOW, Blocks.YELLOW_CONCRETE_POWDER),
-    LIME(DyeColor.LIME, Blocks.LIME_CONCRETE_POWDER),
-    PINK(DyeColor.PINK, Blocks.PINK_CONCRETE_POWDER),
-    GRAY(DyeColor.GRAY, Blocks.GRAY_CONCRETE_POWDER),
-    LIGHT_GRAY(DyeColor.LIGHT_GRAY, Blocks.LIGHT_GRAY_CONCRETE_POWDER),
-    CYAN(DyeColor.CYAN, Blocks.CYAN_CONCRETE_POWDER),
-    PURPLE(DyeColor.PURPLE, Blocks.PURPLE_CONCRETE_POWDER),
-    BLUE(DyeColor.BLUE, Blocks.BLUE_CONCRETE_POWDER),
-    BROWN(DyeColor.BROWN, Blocks.BROWN_CONCRETE_POWDER),
-    GREEN(DyeColor.GREEN, Blocks.GREEN_CONCRETE_POWDER),
-    RED(DyeColor.RED, Blocks.RED_CONCRETE_POWDER),
-    BLACK(DyeColor.BLACK, Blocks.BLACK_CONCRETE_POWDER);
+    WHITE(DyeColor.WHITE, Blocks.CONCRETE_POWDER.white()),
+    ORANGE(DyeColor.ORANGE, Blocks.CONCRETE_POWDER.orange()),
+    MAGENTA(DyeColor.MAGENTA, Blocks.CONCRETE_POWDER.magenta()),
+    LIGHT_BLUE(DyeColor.LIGHT_BLUE, Blocks.CONCRETE_POWDER.lightBlue()),
+    YELLOW(DyeColor.YELLOW, Blocks.CONCRETE_POWDER.yellow()),
+    LIME(DyeColor.LIME, Blocks.CONCRETE_POWDER.lime()),
+    PINK(DyeColor.PINK, Blocks.CONCRETE_POWDER.pink()),
+    GRAY(DyeColor.GRAY, Blocks.CONCRETE_POWDER.gray()),
+    LIGHT_GRAY(DyeColor.LIGHT_GRAY, Blocks.CONCRETE_POWDER.lightGray()),
+    CYAN(DyeColor.CYAN, Blocks.CONCRETE_POWDER.cyan()),
+    PURPLE(DyeColor.PURPLE, Blocks.CONCRETE_POWDER.purple()),
+    BLUE(DyeColor.BLUE, Blocks.CONCRETE_POWDER.blue()),
+    BROWN(DyeColor.BROWN, Blocks.CONCRETE_POWDER.brown()),
+    GREEN(DyeColor.GREEN, Blocks.CONCRETE_POWDER.green()),
+    RED(DyeColor.RED, Blocks.CONCRETE_POWDER.red()),
+    BLACK(DyeColor.BLACK, Blocks.CONCRETE_POWDER.black());
 
     private final String path;
     private final Block vanillaBlock;
