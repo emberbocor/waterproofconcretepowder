@@ -6,13 +6,13 @@
       0
     ],
     "max_format": [
-      107,
-      1
+      121,
+      0
     ],
-    "pack_format": 107,
+    "pack_format": 121,
     "supported_formats": [
       64,
-      107
+      121
     ]
   }
 }

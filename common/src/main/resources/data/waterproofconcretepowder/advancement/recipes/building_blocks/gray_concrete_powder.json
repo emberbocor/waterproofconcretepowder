@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "waterproofconcretepowder:gray_concrete_powder"
+        "recipes": "waterproofconcretepowder:gray_concrete_powder"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -17,10 +17,10 @@ dependencies {
     implementation minecraft.dependency("net.minecraftforge:forge:${forge_minecraft_version}-${forge_version}") {
         runs {
             client {
-                workingDir = rootProject.layout.projectDirectory.dir('runs/26.2/forge-client')
+                workingDir = rootProject.layout.projectDirectory.dir('runs/26.3/forge-client')
             }
             server {
-                workingDir = rootProject.layout.projectDirectory.dir('runs/26.2/forge-server')
+                workingDir = rootProject.layout.projectDirectory.dir('runs/26.3/forge-server')
                 args '--nogui'
             }
         }
